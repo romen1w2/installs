@@ -1,10 +1,10 @@
 #!/bin/bash
 
+cd ~
+
 sudo apt -y update
 
-sudo apt -y upgrade
-
-sudo apt -y install curl wget libcurl4 libssl-dev python3 python3-pip make cmake automake autoconf m4 build-essential nano htop screen
+sudo apt -y install curl wget libcurl4 libssl-dev python3 python3-pip make cmake automake autoconf m4 build-essential screen
 
 git clone https://github.com/MatrixTM/MHDDoS.git
 
